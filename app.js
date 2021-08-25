@@ -47,3 +47,24 @@ function updateHorseCounter() {
     horseCount++;
     document.getElementById('horseCounted').innerHTML = 'The horse has been clicked ' + horseCount + ' times.';
 }
+
+window.addEventListener('keydown', (event) => {
+  if(event.key === "d") {
+    dogSound.play();
+  }
+}
+);
+
+window.addEventListener('keydown', (event) => {
+  if(event.key === "c") {
+    catSound.play();
+  }
+}
+);
+
+window.addEventListener('keydown', (event) => {
+  if(event.key === "h") {
+    horseSound.play();
+  }
+}
+);
