@@ -41,6 +41,7 @@ h1 {
     width: 425px;
     height: 300px;
     cursor: pointer;
+    border: 5px solid darkgray;
 }
 
 footer {
